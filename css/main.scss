@@ -1,7 +1,21 @@
-// --- Cores ---
-$primary-color: #003d33;
+@import "_colors";
 
-$color-variation-1: #439889;
-$color-variation-2: #00695c;
-$color-variation-3: #003d33;
+//Map de size de telas
+$breakpoints: (
+  xs: 0,        //Smartphones em modo retrato
+  sm: 576px,    //Smartphones em modo paisagem ou Tablets em modo retrato
+  md: 768px,    //Tablets em modo paisagem
+  lg: 992px,    //Desktops
+  xl: 1200px,   //Desktops com alta definição HD e FHD
+  xxl: 2000px   //Desktops com ultra alta definição QHD e UHD
+);
 
+//Tratamento para diferents tipos de telas
+@media (min-width: map-get($breakpoints, xs)) {
+
+}
+
+//Desktop
+@media (min-width: map-get($breakpoints, lg)) {
+    
+}
