@@ -55,7 +55,7 @@
     background-color: #003d33;
   }
   .main {
-    height: 40vh;
+    height: 35vh;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
@@ -76,6 +76,11 @@
     text-align: center;
     color: white;
   }
+  .main img {
+    width: 220px;
+    height: 80px;
+    margin-top: 30px;
+  }
   .prints-main {
     -webkit-box-align: center;
         -ms-flex-align: center;
@@ -94,6 +99,7 @@
     max-height: 280px;
     -webkit-box-shadow: 0 0 1em black;
             box-shadow: 0 0 1em black;
+    border-radius: 8px;
   }
   .prints-main :nth-child(1) {
     margin-top: 30px;
@@ -107,6 +113,48 @@
   }
   .quem-somos {
     margin-top: 30vh;
+  }
+}
+
+@media (min-width: 768px) {
+  * a {
+    color: white;
+    text-decoration: none;
+  }
+  .menu {
+    display: block;
+    color: white;
+  }
+  .menu li {
+    margin: 10px;
+  }
+}
+
+@media (min-width: 992px) {
+  .menu li {
+    margin: 20px;
+  }
+  .main {
+    height: 65vh;
+  }
+  .main h1 {
+    font-size: 50px;
+  }
+  .main p {
+    font-size: 20px;
+  }
+  .main img {
+    margin-top: 60px;
+  }
+  .prints-main img {
+    width: 25vw;
+    height: 50vw;
+    margin: -25px;
+    max-width: 250px;
+    max-height: 500px;
+  }
+  .quem-somos {
+    margin-top: 40vh;
   }
 }
 /*# sourceMappingURL=main.css.map */

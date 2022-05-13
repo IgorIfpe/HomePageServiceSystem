@@ -11,10 +11,15 @@ $breakpoints: (
 
 //Tratamento para diferents tipos de telas
 @media (min-width: map-get($breakpoints, xs)) {
-    @import "_base_igor";
+    @import "_base_igor_xs";
+}
+
+//Desktop
+@media (min-width: map-get($breakpoints, md)) {
+    @import "_base_igor_md";
 }
 
 //Desktop
 @media (min-width: map-get($breakpoints, lg)) {
-    
+    @import "_base_igor_lg";
 }

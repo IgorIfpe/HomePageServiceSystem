@@ -45,7 +45,7 @@
 }
 
 .main{
-    height: 40vh;
+    height: 35vh;
     align-items: center;
     justify-content: flex-start;
     flex-wrap: nowrap;
@@ -63,6 +63,13 @@
         font-size: 14px;
         text-align: center;
         color: white;
+    }
+    
+    img{
+        width: 220px;
+        height: 80px;
+
+        margin-top: 30px;
     }
 }
 
@@ -82,8 +89,9 @@
         max-height: 280px;
 
         box-shadow: 0 0 1em black;
+        border-radius: 8px;
     }
-
+    
     :nth-child(1){
         margin-top: 30px;
     }
