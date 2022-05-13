@@ -1,12 +1,14 @@
 @media (min-width: 0) {
-  .LinksDownloas {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+  * {
+    font-family: 'Cairo', sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  * a {
+    text-decoration: none;
   }
   .DownloadApp {
     display: -webkit-box;
@@ -22,32 +24,95 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    margin: 0px 20px;
   }
   .DownloadApp h2 {
     color: #313131;
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: bold;
+    margin-bottom: 0;
   }
   .DownloadApp p {
+    margin-top: 10px;
     font-size: 0.5rem;
+    opacity: 0.7;
   }
   .DownloadApp #descricao {
     margin-top: 3vh;
+    width: 20vh;
+    height: 25vh;
+    max-width: 80vh;
+    min-width: 15vh;
+    margin-right: 8vh;
   }
   .DownloadApp #telahome {
     height: 200px;
     width: 200;
-  }
-  #applestore {
-    height: 20px;
-    width: 70px;
+    -webkit-box-shadow: 0 0 1em black;
+            box-shadow: 0 0 1em black;
+    border-radius: 8px;
   }
   #googleplay {
-    height: 20px;
-    width: 70px;
+    height: 50px;
+    width: 140px;
+    margin-left: -10px;
+    margin-top: 10px;
+  }
+  .Subscribe {
+    background-color: #003d33;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    border-radius: 1vh;
+    margin: 5vh 3vh;
+  }
+  .Subscribe h2, .Subscribe p, .Subscribe a {
+    color: #fff;
+  }
+  .Subscribe h2 {
+    font-size: 0.7rem;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  .Subscribe p {
+    font-size: 0.4rem;
+    width: 5vh;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  .Subscribe a {
+    width: 5vh;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  .Subscribe a {
+    width: 5vh;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  .Subscribe a {
+    width: 80px;
+    border: solid 1px;
+    border-radius: 5px;
+    border-color: #fff;
+  }
+  .Subscribe .SubscribeText {
+    margin: 30px;
+    width: 90px;
   }
 }
 /*# sourceMappingURL=main.css.map */
