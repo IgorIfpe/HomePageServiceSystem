@@ -1,0 +1,46 @@
+$primary-color: #003d33;
+
+$color-variation-1: #439889;
+$color-variation-2: #00695c;
+$color-variation-3: #003d33;
+
+.LinksDownloas {
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.DownloadApp {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    justify-content: space-between;
+
+    h2 {
+        color: #313131;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    p {
+        font-size: 0.5rem;
+    }
+    #descricao {
+        margin-top: 3vh;
+    }
+
+    #telahome {
+        height: 200px;
+        width: 200;
+    }
+}
+
+#applestore {
+    height: 20px;
+    width: 70px;
+}
+
+#googleplay {
+    height: 20px;
+    width: 70px;
+}

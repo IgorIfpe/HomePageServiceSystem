@@ -12,7 +12,7 @@ $breakpoints: (
 
 //Tratamento para diferents tipos de telas
 @media (min-width: map-get($breakpoints, xs)) {
-
+  @import "_base_tomas";
 }
 
 //Desktop
