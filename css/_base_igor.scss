@@ -1,0 +1,103 @@
+@import "_colors";
+//@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;1,100&display=swap');
+
+*{
+    font-family: 'Cairo', sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+
+    h1, h2, h3, p{
+        margin-bottom: 0.8rem;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+
+    mark{
+        background-color: inherit;
+    }
+}
+
+//Caracteristicas de um flex-container
+@mixin flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-container-row{
+    @include flex-container();
+    flex-direction: row;
+}
+
+.flex-container-column{
+    @include flex-container();
+    flex-direction: column;
+}
+
+.menu{
+    display: none;
+    background-color: $primary-color;
+}
+
+.main{
+    height: 40vh;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+
+    background-color: $primary-color;
+    
+    h1{
+        margin-top: 3vh;
+        margin-bottom: 3vh;
+
+        color: white;
+    }
+
+    p{
+        font-size: 14px;
+        text-align: center;
+        color: white;
+    }
+}
+
+.prints-main{
+    align-items: center;
+    justify-content: flex-start;
+
+    img{
+        width: 25vw;
+        height: 50vw;
+        margin: -14px;
+
+        min-width: 80px;
+        min-height: 159px;
+
+        max-width: 140px;
+        max-height: 280px;
+
+        box-shadow: 0 0 1em black;
+    }
+
+    :nth-child(1){
+        margin-top: 30px;
+    }
+
+    :nth-child(2){
+        overflow: hidden;
+        z-index: 100;
+    }
+
+    :nth-child(3){
+        margin-top: 30px;
+    }
+}
+
+.quem-somos{
+    margin-top: 30vh;
+}

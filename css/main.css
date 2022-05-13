@@ -1,1 +1,112 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+@media (min-width: 0) {
+  * {
+    font-family: 'Cairo', sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  * h1, * h2, * h3, * p {
+    margin-bottom: 0.8rem;
+  }
+  * ul {
+    list-style-type: none;
+  }
+  * mark {
+    background-color: inherit;
+  }
+  .flex-container-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .flex-container-column {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .menu {
+    display: none;
+    background-color: #003d33;
+  }
+  .main {
+    height: 40vh;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    background-color: #003d33;
+  }
+  .main h1 {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    color: white;
+  }
+  .main p {
+    font-size: 14px;
+    text-align: center;
+    color: white;
+  }
+  .prints-main {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .prints-main img {
+    width: 25vw;
+    height: 50vw;
+    margin: -14px;
+    min-width: 80px;
+    min-height: 159px;
+    max-width: 140px;
+    max-height: 280px;
+    -webkit-box-shadow: 0 0 1em black;
+            box-shadow: 0 0 1em black;
+  }
+  .prints-main :nth-child(1) {
+    margin-top: 30px;
+  }
+  .prints-main :nth-child(2) {
+    overflow: hidden;
+    z-index: 100;
+  }
+  .prints-main :nth-child(3) {
+    margin-top: 30px;
+  }
+  .quem-somos {
+    margin-top: 30vh;
+  }
+}
+/*# sourceMappingURL=main.css.map */

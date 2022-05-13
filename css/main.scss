@@ -1,4 +1,3 @@
-@import "_colors";
 
 //Map de size de telas
 $breakpoints: (
@@ -12,7 +11,7 @@ $breakpoints: (
 
 //Tratamento para diferents tipos de telas
 @media (min-width: map-get($breakpoints, xs)) {
-
+    @import "_base_igor";
 }
 
 //Desktop
