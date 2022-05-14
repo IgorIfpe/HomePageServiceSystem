@@ -42,35 +42,51 @@
 .menu{
     display: none;
     background-color: $primary-color;
+    background-image: $gradient-green;
+}
+
+.logo{
+
+    margin-top: 30px;
+
+    img{
+        width: 50px;
+        height: 50px;
+        
+        border-radius: 8px;
+    }
+
+    h1{
+        margin: 0;
+        margin-left: 10px;
+        color: white;
+    }
 }
 
 .main{
-    height: 35vh;
+    height: 44vh;
     align-items: center;
     justify-content: flex-start;
     flex-wrap: nowrap;
-
-    background-color: $primary-color;
     
-    h1{
-        margin-top: 3vh;
-        margin-bottom: 3vh;
-
-        color: white;
-    }
-
+    background-color: $primary-color;
+    background-image: $gradient-green;
+    
     p{
         font-size: 14px;
         text-align: center;
         color: white;
     }
     
-    img{
-        width: 220px;
-        height: 80px;
-
-        margin-top: 30px;
+    #logo-google-play{
+        img{
+            width: 220px;
+            height: 80px;
+    
+            margin-top: 30px;
+        }
     }
+    
 }
 
 .prints-main{
