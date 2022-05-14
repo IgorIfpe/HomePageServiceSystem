@@ -35,10 +35,12 @@
     margin-left: 1vw;
     margin-right: 1vw;
     margin-bottom: 1vw;
+    text-align: center;
   }
   .conteudo .texto p {
     margin-top: 1vw;
     font-size: 1.7vw;
+    opacity: 0.7;
   }
   .conteudo .texto h2 {
     text-align: center;
@@ -85,7 +87,7 @@
   }
   .conteudo .saibaMais {
     margin-top: 3vw;
-    background-color: #000000;
+    background-color: #003d33;
     color: #FFFFFF;
     font-size: 1.3vw;
     padding: 1vw 1vw;
