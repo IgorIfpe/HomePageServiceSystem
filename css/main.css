@@ -38,22 +38,21 @@
   }
   .conteudo .texto p {
     margin-top: 1vw;
-    font-size: 1.3vw;
-    opacity: 0.7;
+    font-size: 1.7vw;
   }
   .conteudo .texto h2 {
     text-align: center;
     color: #439889;
-    font-size: 2.5vw;
+    font-size: 3vw;
     font-weight: bold;
-    margin-bottom: 0;
+    margin-bottom: 1vw;
   }
   .conteudo .texto h3 {
     text-align: center;
     color: #00695c;
-    font-size: 1.9vw;
+    font-size: 2.3vw;
     font-weight: bold;
-    margin-bottom: 0;
+    margin-bottom: 1vw;
   }
   .conteudo .texto a {
     color: #003d33;
@@ -85,7 +84,6 @@
     border-radius: 10px;
   }
   .conteudo .saibaMais {
-    text-align: center;
     margin-top: 3vw;
     background-color: #000000;
     color: #FFFFFF;
@@ -93,6 +91,14 @@
     padding: 1vw 1vw;
     border-radius: 5px;
     border: none;
+  }
+  .conteudo .botao {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 /*# sourceMappingURL=main.css.map */
