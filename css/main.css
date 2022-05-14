@@ -63,11 +63,15 @@
     width: 50px;
     height: 50px;
     border-radius: 8px;
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
   }
   .logo h1 {
     margin: 0;
     margin-left: 10px;
     color: white;
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
   }
   .main {
     height: 44vh;
@@ -112,6 +116,8 @@
     -webkit-box-shadow: 0 0 1em black;
             box-shadow: 0 0 1em black;
     border-radius: 8px;
+    -webkit-transition: all 0.4s ease;
+    transition: all 0.4s ease;
   }
   .prints-main :nth-child(1) {
     margin-top: 30px;
@@ -153,10 +159,35 @@
   }
   .menu {
     display: block;
-    color: white;
+    color: #a0a0a0;
+    -webkit-transition: all 0.7s ease;
+    transition: all 0.7s ease;
   }
   .menu li {
     margin: 10px;
+  }
+  .menu a {
+    position: relative;
+    letter-spacing: 0.5px;
+    padding: 0 10px;
+  }
+  .menu a:after {
+    content: "";
+    position: absolute;
+    background-color: white;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  .menu a:hover {
+    color: white;
+    font-weight: 800;
+  }
+  .menu a:hover:after {
+    width: 100%;
   }
 }
 
