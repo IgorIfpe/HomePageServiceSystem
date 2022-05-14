@@ -1,11 +1,17 @@
 @import "_colors";
 
 //Map de size de telas
-$breakpoints: (xs: 0, //Smartphones em modo retrato
-  sm: 576px, //Smartphones em modo paisagem ou Tablets em modo retrato
-  md: 768px, //Tablets em modo paisagem
-  lg: 992px, //Desktops
-  xl: 1200px, //Desktops com alta definição HD e FHD
+$breakpoints: (
+  xs: 0,
+  //Smartphones em modo retrato
+  sm: 576px,
+  //Smartphones em modo paisagem ou Tablets em modo retrato
+  md: 768px,
+  //Tablets em modo paisagem
+  lg: 992px,
+  //Desktops
+  xl: 1200px,
+  //Desktops com alta definição HD e FHD
   xxl: 2000px //Desktops com ultra alta definição QHD e UHD
 );
 
