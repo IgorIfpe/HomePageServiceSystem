@@ -13,12 +13,12 @@
 .conteudo {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
+  align-items: center;
+  align-content: center;
   justify-content: center;
-  margin: 0rem 1rem;
+  margin: 3rem 1rem;
 
   .texto {
-    margin-top: 4vw;
     width: 30vw;
     height: 30vw;
     max-width: 80vw;

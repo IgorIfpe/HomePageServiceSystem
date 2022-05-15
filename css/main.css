@@ -18,16 +18,17 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    margin: 0rem 1rem;
+    margin: 3rem 1rem;
   }
   .conteudo .texto {
-    margin-top: 4vw;
     width: 30vw;
     height: 30vw;
     max-width: 80vw;
