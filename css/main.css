@@ -35,7 +35,7 @@
     margin-left: 1vw;
     margin-right: 1vw;
     margin-bottom: 1vw;
-    text-align: center;
+    text-align: start;
   }
   .conteudo .texto p {
     margin-top: 1vw;
@@ -64,7 +64,7 @@
     margin-bottom: 7vw;
     padding-left: 5vw;
     padding-right: 5vw;
-    height: 30vw;
+    height: 20vw;
     width: 250;
     border-radius: 10px;
     -webkit-box-align: center;
@@ -79,7 +79,7 @@
   }
   .conteudo .backg img {
     margin-top: -17vw;
-    height: 50vw;
+    height: 40vw;
     width: 200;
     -webkit-box-shadow: 0 0 1em black;
             box-shadow: 0 0 1em black;
