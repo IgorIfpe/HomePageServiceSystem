@@ -26,17 +26,6 @@
             justify-content: center;
     margin: 0px 20px;
   }
-  .DownloadApp h2 {
-    color: #313131;
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin-bottom: 0;
-  }
-  .DownloadApp p {
-    margin-top: 10px;
-    font-size: 0.5rem;
-    opacity: 0.7;
-  }
   .DownloadApp #descricao {
     margin-top: 3vh;
     width: 20vh;
@@ -45,9 +34,19 @@
     min-width: 15vh;
     margin-right: 8vh;
   }
+  .DownloadApp #descricao h2 {
+    color: #313131;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+  .DownloadApp #descricao p {
+    margin-top: 2vh;
+    font-size: 0.5rem;
+    opacity: 0.7;
+  }
   .DownloadApp #telahome {
     height: 200px;
-    width: 200;
     -webkit-box-shadow: 0 0 1em black;
             box-shadow: 0 0 1em black;
     border-radius: 8px;
@@ -87,32 +86,311 @@
   }
   .Subscribe p {
     font-size: 0.4rem;
-    width: 5vh;
     margin-bottom: 10px;
     margin-top: 10px;
     margin-left: 10px;
   }
   .Subscribe a {
-    width: 5vh;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    margin-left: 10px;
-  }
-  .Subscribe a {
-    width: 5vh;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    margin-left: 10px;
-  }
-  .Subscribe a {
+    font-size: 10px;
+    height: 25px;
     width: 80px;
     border: solid 1px;
     border-radius: 5px;
     border-color: #fff;
+    text-align: center;
+    padding-top: 6px;
+    margin-right: 5vh;
   }
-  .Subscribe .SubscribeText {
-    margin: 30px;
-    width: 90px;
+  .SubscribeText {
+    width: 25vh;
+    margin: 10px 10px 10px 15px;
+  }
+  .Links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-left: 2vh;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .Links .EmailAdd h2 {
+    font-size: 10px;
+  }
+  .Links .EmailAdd p {
+    font-size: 8px;
+  }
+  .Links .EmailAdd .Interacoes {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .Links .EmailAdd .Interacoes input {
+    height: 30px;
+    padding: 5px;
+    border: 0.1px solid #e7ebee;
+    background-color: #fafafa;
+    border-radius: 5px;
+  }
+  .Links .EmailAdd .Interacoes a {
+    text-align: center;
+    height: 30px;
+    color: #011037;
+    border: 1px solid #011037;
+    border-radius: 5px;
+    margin-left: 20px;
+    padding: 5px 15px;
+  }
+  .Links .ListaLinks {
+    list-style: none;
+    margin-top: 20px;
+    text-align: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .Links .ListaLinks h2 {
+    font-size: 12px;
+  }
+  .Links .ListaLinks a {
+    font-size: 10px;
+    color: #6c6c6c;
+  }
+  footer {
+    margin-top: 20px;
+    background-color: #00695c;
+    font-size: 10px;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+  }
+}
+
+@media (min-width: 768px) {
+  .DownloadApp {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin: 0px 110px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .DownloadApp #descricao {
+    margin-bottom: 80px;
+  }
+  .DownloadApp #descricao h2 {
+    font-size: 1.7rem;
+  }
+  .DownloadApp #descricao p {
+    font-size: 0.8rem;
+    width: 60vh;
+  }
+  .DownloadApp #telahome {
+    height: 300px;
+  }
+  .DownloadApp #googleplay {
+    height: 60px;
+    width: 150px;
+    margin-left: 65px;
+    margin-top: 30px;
+  }
+  .Subscribe {
+    margin: 5vh 20vh;
+  }
+  .Subscribe h2 {
+    width: 300px;
+    font-size: 1.2rem;
+    margin-top: 25px;
+    margin-left: 25px;
+  }
+  .Subscribe p {
+    width: 200px;
+    font-size: 0.6rem;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    margin-left: 25px;
+  }
+  .Subscribe a {
+    font-size: 14px;
+    height: 40px;
+    width: 140px;
+    padding-top: 10px;
+    margin-right: 70px;
+    margin-bottom: 8px;
+  }
+  .EndSection {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 20vh;
+  }
+  .EndSection .Links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .EndSection .Links .EmailAdd h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .EndSection .Links .EmailAdd p {
+    font-size: 12px;
+    width: 220px;
+  }
+  .EndSection .Links .EmailAdd .Interacoes {
+    margin-top: 20px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .EndSection .Links .EmailAdd .Interacoes input {
+    height: 30px;
+    width: 130px;
+    padding: 5px;
+    font-size: 10px;
+  }
+  .EndSection .Links .EmailAdd .Interacoes a {
+    padding-top: 8px;
+    padding-left: 14px;
+    height: 30px;
+    width: 70px;
+    margin-left: 10px;
+    font-size: 8px;
+  }
+  .EndSection .Links .ListaLinks {
+    margin: 0 11px;
+    text-align: start;
+    margin-top: 30px;
+  }
+  .EndSection .Links .ListaLinks h2 {
+    font-size: 14px;
+  }
+  .EndSection .Links .ListaLinks li {
+    margin-top: 10px;
+  }
+  .EndSection .Links .ListaLinks a {
+    font-size: 10px;
+  }
+  .EndSection .Links #follow {
+    margin-top: -27px;
+  }
+  footer {
+    font-size: 12px;
+    padding: 12;
+  }
+}
+
+@media (min-width: 992px) {
+  .DownloadApp {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin: 0px 280px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .DownloadApp #descricao {
+    margin-bottom: 100px;
+  }
+  .DownloadApp #descricao h2 {
+    font-size: 3rem;
+  }
+  .DownloadApp #descricao p {
+    font-size: 0.9rem;
+    width: 70vh;
+  }
+  .DownloadApp #telahome {
+    height: 500px;
+  }
+  .DownloadApp #googleplay {
+    height: 80px;
+    width: 190px;
+    margin-left: 100px;
+  }
+  .Subscribe {
+    margin: 10vh 40vh;
+    height: 200px;
+  }
+  .Subscribe h2 {
+    width: 400px;
+    font-size: 2rem;
+    margin-left: 70px;
+  }
+  .Subscribe p {
+    width: 360px;
+    font-size: 0.7rem;
+    line-height: 15px;
+    margin-left: 70px;
+  }
+  .Subscribe a {
+    height: 50px;
+    width: 150px;
+    padding-top: 15px;
+    margin-right: 100px;
+  }
+  .EndSection {
+    margin-left: 40vh;
+  }
+  .EndSection .Links .EmailAdd {
+    margin-right: 40px;
+  }
+  .EndSection .Links .EmailAdd h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .EndSection .Links .EmailAdd p {
+    font-size: 12px;
+    width: 220px;
+  }
+  .EndSection .Links .EmailAdd .Interacoes {
+    margin-top: 20px;
+  }
+  .EndSection .Links .EmailAdd .Interacoes input {
+    height: 40px;
+    font-size: 12px;
+  }
+  .EndSection .Links .EmailAdd .Interacoes a {
+    padding-top: 12px;
+    padding-left: 12px;
+    height: 40px;
+    font-size: 12px;
+  }
+  .EndSection .Links .ListaLinks {
+    margin-right: 100px;
+    margin-top: 70px;
+  }
+  .EndSection .Links .ListaLinks h2 {
+    font-size: 18px;
+  }
+  .EndSection .Links .ListaLinks li {
+    margin-top: 20px;
+  }
+  .EndSection .Links .ListaLinks a {
+    font-size: 13px;
+  }
+  .EndSection .Links #follow {
+    margin-top: -13px;
+  }
+  footer {
+    font-size: 15px;
+    padding: 20px;
+    margin-top: 80px;
   }
 }
 /*# sourceMappingURL=main.css.map */

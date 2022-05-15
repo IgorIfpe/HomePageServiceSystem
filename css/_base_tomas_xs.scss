@@ -1,0 +1,160 @@
+$primary-color: #003d33;
+
+$color-variation-1: #439889;
+$color-variation-2: #00695c;
+$color-variation-3: #003d33;
+
+* {
+    font-family: 'Cairo', sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    a {
+        text-decoration: none;
+    }
+}
+
+.DownloadApp {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 0px 20px;
+    
+    #descricao {
+        margin-top: 3vh;
+        width: 20vh;
+        height: 25vh;
+        max-width: 80vh;
+        min-width: 15vh;
+        margin-right: 8vh;
+        h2 {
+            color: #313131;
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 0;
+        }
+    
+        p {
+            margin-top: 2vh;
+            font-size: 0.5rem;
+            opacity: 0.7;
+        }
+    }
+
+    #telahome {
+        height: 200px;
+        box-shadow: 0 0 1em black;
+        border-radius: 8px;
+    }
+}
+
+#googleplay {
+    height: 50px;
+    width: 140px;
+    margin-left: -10px;
+    margin-top: 10px;
+}
+
+.Subscribe {
+    background-color: $primary-color;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 1vh;
+    margin: 5vh 3vh;
+    h2, p, a {
+        color: #fff;
+    }
+    h2 {
+        font-size: 0.7rem;
+        font-weight: bold;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    p {
+        font-size: 0.4rem;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    a {
+        font-size: 10px;
+        height: 25px;
+        width: 80px;
+        border: solid 1px;
+        border-radius: 5px;
+        border-color: #fff;
+        text-align: center;
+        padding-top: 6px;
+        margin-right: 5vh;
+    }
+}
+    
+.SubscribeText {
+    width: 25vh;
+    margin: 10px 10px 10px 15px;
+}
+
+.Links {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2vh;
+    align-items: center;
+    .EmailAdd {
+        h2 {
+            font-size: 10px;
+        }
+        p {
+            font-size: 8px;
+        }
+
+        .Interacoes {
+            display: flex;
+            flex-direction: row;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            input {
+                height: 30px;
+                padding: 5px;
+                border: 0.1px solid #e7ebee;
+                background-color: #fafafa;
+                border-radius: 5px;
+            }
+            a {
+                text-align: center;
+                height: 30px;
+                color: #011037;
+                border: 1px solid #011037;
+                border-radius: 5px;
+                margin-left: 20px;
+                padding: 5px 15px;
+            }
+        }
+    }
+
+    .ListaLinks {
+        list-style: none;
+        margin-top: 20px;
+        text-align: center;
+        justify-content: center;
+        h2 {
+            font-size: 12px;
+        }
+        a {
+            font-size: 10px;
+            color: #6c6c6c;
+        }
+    }
+}
+
+footer {
+    margin-top: 20px;
+    background-color: $color-variation-2;
+    font-size: 10px;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+}
