@@ -29,10 +29,8 @@
     margin: 3rem 1rem;
   }
   .conteudo .texto {
-    width: 30vw;
+    width: 50vw;
     height: 30vw;
-    max-width: 80vw;
-    min-width: 15vw;
     margin-left: 1vw;
     margin-right: 1vw;
     margin-bottom: 1vw;
