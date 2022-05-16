@@ -1,0 +1,97 @@
+* {
+  font-family: 'Cairo', sans-serif;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.conteudo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  margin: 3rem 1rem;
+
+  .texto {
+    width: 30vw;
+    height: 30vw;
+    max-width: 80vw;
+    min-width: 15vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-bottom: 1vw;
+    text-align: start;
+
+    p {
+      margin-top: 1vw;
+      font-size: 1.7vw;
+      opacity: 0.7;
+    }
+
+    h2 {
+      text-align: center;
+      color: $color-variation-1;
+      font-size: 3vw;
+      font-weight: bold;
+      margin-bottom: 1vw;
+    }
+
+    h3 {
+      text-align: center;
+      color: $color-variation-2;
+      font-size: 2.3vw;
+      font-weight: bold;
+      margin-bottom: 1vw;
+    }
+
+    a {
+      color: $color-variation-3;
+    }
+  }
+
+  .backg {
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+    margin-top: 20vw;
+    margin-bottom: 7vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    height: 20vw;
+    width: 250;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    background-color: $primary-color;
+
+    img {
+      margin-top: -17vw;
+      height: 40vw;
+      width: 200;
+      box-shadow: 0 0 1em black;
+      border-radius: 10px;
+    }
+  }
+
+  .saibaMais {
+    margin-top: 3vw;
+    background-color: $primary-color;
+    color: #FFFFFF;
+    font-size: 1.3vw;
+    padding: 1vw 1vw;
+    border-radius: 5px;
+    border: none;
+  }
+
+  .botao {
+    display: flex;
+    justify-content: center;
+  }
+
+}
