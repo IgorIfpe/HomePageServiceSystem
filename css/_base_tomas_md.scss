@@ -1,0 +1,117 @@
+.DownloadApp {
+    justify-content: space-between;
+    margin: 0px 110px;
+    align-items: center;
+    #descricao {
+        margin-bottom: 80px;
+        h2 {
+            font-size: 1.7rem;
+        }
+        p {
+            font-size: 0.8rem;
+            width: 60vh;
+        }
+    }
+
+    #telahome {
+        height: 300px;
+    }
+
+    #googleplay {
+        height: 60px;
+        width: 150px;
+        margin-left: 65px;
+        margin-top: 30px;
+    }
+}
+
+.Subscribe {
+    margin: 5vh 20vh;
+    
+    h2 {
+        width: 300px;
+        font-size: 1.2rem;
+        margin-top: 25px;
+        margin-left: 25px;
+    }
+    
+    p {
+        width: 200px;
+        font-size: 0.6rem;
+        margin-bottom: 25px;
+        margin-top: 10px;
+        margin-left: 25px;
+    }
+
+    a {
+        font-size: 14px;
+        height: 40px;
+        width: 140px;
+        padding-top: 10px;
+        margin-right: 70px;
+        margin-bottom: 8px;
+    }
+}
+
+.EndSection {
+    display: flex;
+    margin: 0 20vh;
+    
+    .Links {
+        display: flex;
+        flex-direction: row;
+        .EmailAdd {
+            h2 {
+                font-size: 20px;
+                margin-bottom: 20px;
+            }
+            p {
+                font-size: 12px;
+                width: 220px;
+            }
+            
+            .Interacoes {
+                margin-top: 20px;
+                align-items: center;
+                input {
+                    height: 30px;
+                    width: 130px;
+                    padding: 5px;
+                    font-size: 10px;
+                }
+                a {
+                    padding-top: 8px;
+                    padding-left: 14px;
+                    height: 30px;
+                    width: 70px;
+                    margin-left: 10px;
+                    font-size: 8px;
+                }
+            }
+        }
+
+        .ListaLinks {
+            margin: 0 11px;
+            text-align: start;
+            margin-top: 30px;
+            h2 {
+                font-size: 14px;
+            }
+            li {
+                margin-top: 10px;
+            }
+            a {
+                font-size: 10px;
+            }
+        }
+
+        #follow {
+            margin-top: -27px;
+        }
+    }
+}
+
+footer {
+    font-size: 12px;
+    padding: 12;
+}

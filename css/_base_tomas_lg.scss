@@ -1,0 +1,106 @@
+.DownloadApp {
+    justify-content: space-between;
+    margin: 0px 280px;
+    align-items: center;
+    #descricao {
+        margin-bottom: 100px;
+        h2 {
+            font-size: 3rem;
+        }
+        p {
+            font-size: 0.9rem;
+            width: 70vh;
+        }
+    }
+
+    #telahome {
+        height: 500px;
+    }
+
+    #googleplay {
+        height: 80px;
+        width: 190px;
+        margin-left: 100px;
+    }
+}
+
+.Subscribe {
+    margin: 10vh 40vh;
+    height: 200px;
+    
+    h2 {
+        width: 400px;
+        font-size: 2rem;
+        margin-left: 70px;
+    }
+    
+    p {
+        width: 360px;
+        font-size: 0.7rem;
+        line-height: 15px;
+        margin-left: 70px;
+    }
+
+    a {
+        height: 50px;
+        width: 150px;
+        padding-top: 15px;
+        margin-right: 100px;
+    }
+}
+
+.EndSection {
+    margin-left: 40vh;
+    
+    .Links {
+        .EmailAdd {
+            margin-right: 40px;
+            h2 {
+                font-size: 20px;
+                margin-bottom: 20px;
+            }
+            p {
+                font-size: 12px;
+                width: 220px;
+            }
+            
+            .Interacoes {
+                margin-top: 20px;
+                input {
+                    height: 40px;
+                    font-size: 12px;
+                }
+                a {
+                    padding-top: 12px;
+                    padding-left: 12px;
+                    height: 40px;
+                    font-size: 12px;
+                }
+            }
+        }
+
+        .ListaLinks {
+            margin-right: 100px;
+            margin-top: 70px;
+            h2 {
+                font-size: 18px;
+            }
+            li {
+                margin-top: 20px;
+            }
+            a {
+                font-size: 13px;
+            }
+        }
+
+        #follow {
+            margin-top: -13px;
+        }
+    }
+}
+
+footer {
+    font-size: 15px;
+    padding: 20px;
+    margin-top: 80px;
+}
