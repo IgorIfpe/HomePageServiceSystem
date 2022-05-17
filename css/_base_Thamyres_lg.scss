@@ -1,6 +1,6 @@
 .container{
 	width: 1150 px;
- 	padding: 20px;
+ 	padding: 30px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -8,8 +8,9 @@
 }
 
 .container .card{
-    width: 300px;
-    margin: 20px;
+    height: 450px;
+    padding: 10px;
+    width: 250px;
 }
 
 .container .card h2, h3{

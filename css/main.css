@@ -16,15 +16,15 @@
   }
   .container .card {
     position: relative;
-    padding: 10px;
+    padding: 20px;
     width: 300px;
-    left: 10px;
-    height: 380px;
+    left: 20px;
+    height: 390px;
     background-color: #fff;
-    margin: 20px;
+    margin: 10px;
     -webkit-box-shadow: 2px 20px 25px gray;
             box-shadow: 2px 20px 25px gray;
-    border-radius: 20px;
+    border-radius: 10px;
     overflow: hidden;
     -webkit-transition: 0.5s;
     transition: 0.5s;
@@ -61,9 +61,11 @@
     background-image: -webkit-gradient(linear, left top, right top, from(#439889), color-stop(#00695c), to(#003d33));
     background-image: linear-gradient(to right, #439889, #00695c, #003d33);
     color: white;
-    margin-top: -30px;
-    -webkit-box-shadow: 2px 20px 25px #003d33;
-            box-shadow: 2px 20px 25px #003d33;
+    padding: 10px;
+    padding-top: 10px;
+    margin-top: 10px;
+    -webkit-box-shadow: 3px 20px 25px #003d33;
+            box-shadow: 3px 20px 25px #003d33;
     border-color: gray;
   }
   .container .card:hover .content p {
@@ -78,7 +80,7 @@
 @media (min-width: 768px) {
   .container {
     width: 1150 px;
-    padding: 20px;
+    padding: 30px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -93,8 +95,8 @@
   }
   .container .card {
     height: 450px;
-    padding: 10px;
-    width: 200px;
+    padding: 20px;
+    width: 22.2vw;
   }
   .container .card h2, h3 {
     font-size: 2rem;
@@ -138,7 +140,7 @@
 @media (min-width: 992px) {
   .container {
     width: 1150 px;
-    padding: 20px;
+    padding: 30px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -152,8 +154,9 @@
         flex-wrap: wrap;
   }
   .container .card {
-    width: 300px;
-    margin: 20px;
+    height: 450px;
+    padding: 10px;
+    width: 250px;
   }
   .container .card h2, h3 {
     font-size: 2rem;
