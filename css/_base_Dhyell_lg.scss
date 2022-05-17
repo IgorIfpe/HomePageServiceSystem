@@ -1,0 +1,94 @@
+@import "_colors";
+
+* {
+  font-family: 'Cairo', sans-serif;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.conteudo {
+  display: flex;
+  align-self: center;
+  align-items: center;
+  align-self: center;
+  justify-items: center;
+  justify-content: center;
+  justify-self: center;
+  margin: 0rem 1rem;
+
+  .texto {
+    width: 30rem;
+    height: 15rem;
+    margin-top: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+
+    p {
+      margin-top: 1rem;
+      font-size: 1rem;
+      opacity: 0.7;
+    }
+
+    h2 {
+      text-align: center;
+      color: $color-variation-1;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    h3 {
+      text-align: center;
+      color: $color-variation-2;
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+
+    a {
+      color: $color-variation-3;
+    }
+  }
+
+  .backg {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    height: 12rem;
+    width: 250;
+    border-radius: 10px;
+    background-color: $primary-color;
+
+    img {
+      margin-top: -9rem;
+      height: 25rem;
+      width: 200;
+      box-shadow: 0 0 1rem black;
+      border-radius: 10px;
+    }
+  }
+
+  .saibaMais {
+    margin-top: 2rem;
+    background-color: $primary-color;
+    color: #FFFFFF;
+    font-size: 1rem;
+    padding: 1rem 1rem;
+    border-radius: 5px;
+    border: none;
+  }
+
+  .botao {
+    display: flex;
+    justify-content: start;
+  }
+
+}

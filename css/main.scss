@@ -1,27 +1,33 @@
 
 //Map de size de telas
-$breakpoints: (
-  xs: 0,        //Smartphones em modo retrato
-  sm: 576px,    //Smartphones em modo paisagem ou Tablets em modo retrato
-  md: 768px,    //Tablets em modo paisagem
-  lg: 992px,    //Desktops
-  xl: 1200px,   //Desktops com alta definição HD e FHD
-  xxl: 2000px   //Desktops com ultra alta definição QHD e UHD
+$breakpoints: (xs: 0,
+  //Smartphones em modo retrato
+  sm: 576px,
+  //Smartphones em modo paisagem ou Tablets em modo retrato
+  md: 768px,
+  //Tablets em modo paisagem
+  lg: 992px,
+  //Desktops
+  xl: 1200px,
+  //Desktops com alta definição HD e FHD
+  xxl: 2000px //Desktops com ultra alta definição QHD e UHD
 );
 
 //Tratamento para diferents tipos de telas
 @media (min-width: map-get($breakpoints, xs)) {
   @import "_base_tomas_xs";
-    @import "_base_igor_xs";
+  @import "_base_igor_xs";
+  @import "_base_Dhyell_xs";
 }
 
 //Desktop
 @media (min-width: map-get($breakpoints, md)) {
-    @import "_base_igor_md";
-    @import "_base_tomas_md";
+  @import "_base_igor_md";
+  @import "_base_tomas_md";
 }
 
 @media (min-width: map-get($breakpoints, lg)) {
-    @import "_base_igor_lg";
-    @import "_base_tomas_lg";
+  @import "_base_igor_lg";
+  @import "_base_tomas_lg";
+  @import "_base_Dhyell_lg";
 }
