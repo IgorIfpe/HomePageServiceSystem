@@ -1,8 +1,10 @@
 .DownloadApp {
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 0px 110px;
     align-items: center;
     #descricao {
+        max-width: 80vh;
+        min-width: 50vh;
         margin-bottom: 80px;
         h2 {
             font-size: 1.7rem;
@@ -25,40 +27,41 @@
     }
 }
 
-.Subscribe {
-    margin: 5vh 20vh;
+.ContainerSubscribe {
+    .Subscribe {
+        max-width: 75vw;
+        padding: 0 4vw;
     
-    h2 {
-        width: 300px;
-        font-size: 1.2rem;
-        margin-top: 25px;
-        margin-left: 25px;
-    }
+        h2 {
+            width: 300px;
+            font-size: 1.2rem;
+            margin-top: 25px;
+            margin-left: 25px;
+        }
+        
+        p {
+            width: 200px;
+            font-size: 0.6rem;
+            margin-bottom: 25px;
+            margin-top: 10px;
+            margin-left: 25px;
+        }
     
-    p {
-        width: 200px;
-        font-size: 0.6rem;
-        margin-bottom: 25px;
-        margin-top: 10px;
-        margin-left: 25px;
-    }
-
-    a {
-        font-size: 14px;
-        height: 40px;
-        width: 140px;
-        padding-top: 10px;
-        margin-right: 70px;
-        margin-bottom: 8px;
+        a {
+            font-size: 14px;
+            height: 40px;
+            width: 140px;
+            text-align: center;
+        }
     }
 }
 
+
 .EndSection {
     display: flex;
-    margin: 0 20vh;
+    justify-content:center;
     
     .Links {
-        display: flex;
         flex-direction: row;
         .EmailAdd {
             h2 {
@@ -80,8 +83,7 @@
                     font-size: 10px;
                 }
                 a {
-                    padding-top: 8px;
-                    padding-left: 14px;
+                    text-align: center;
                     height: 30px;
                     width: 70px;
                     margin-left: 10px;
@@ -91,14 +93,10 @@
         }
 
         .ListaLinks {
-            margin: 0 11px;
+            //margin: 0 11px;
             text-align: start;
-            margin-top: 30px;
             h2 {
                 font-size: 14px;
-            }
-            li {
-                margin-top: 10px;
             }
             a {
                 font-size: 10px;
@@ -106,7 +104,7 @@
         }
 
         #follow {
-            margin-top: -27px;
+            margin-right: 0;
         }
     }
 }
