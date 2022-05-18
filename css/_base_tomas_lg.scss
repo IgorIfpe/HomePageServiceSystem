@@ -1,6 +1,6 @@
 .DownloadApp {
     justify-content: space-between;
-    margin: 0px 280px;
+    margin: 0px 15vw;
     align-items: center;
     #descricao {
         margin-bottom: 100px;
@@ -9,7 +9,7 @@
         }
         p {
             font-size: 0.9rem;
-            width: 70vh;
+            width: 40vw;
         }
     }
 
@@ -24,39 +24,41 @@
     }
 }
 
-.Subscribe {
-    margin: 10vh 40vh;
-    height: 200px;
+.ContainerSubscribe {
+    margin-top: 40px;
+    .Subscribe {
+        height: 200px;
+        padding: 0 3vw;
+        
+        h2 {
+            width: 400px;
+            font-size: 2rem;
+        }
+        
+        p {
+            width: 300px;
+            font-size: 0.7rem;
+            line-height: 15px;
+        }
     
-    h2 {
-        width: 400px;
-        font-size: 2rem;
-        margin-left: 70px;
-    }
-    
-    p {
-        width: 360px;
-        font-size: 0.7rem;
-        line-height: 15px;
-        margin-left: 70px;
-    }
-
-    a {
-        height: 50px;
-        width: 150px;
-        padding-top: 15px;
-        margin-right: 100px;
+        a {
+            height: 50px;
+            width: 150px;
+            padding-top: 15px;
+        }
     }
 }
 
 .EndSection {
-    margin-left: 40vh;
+    display: flex;
+    justify-content: center;
     
     .Links {
+        margin-left: 0;
         .EmailAdd {
-            margin-right: 40px;
+            margin-right: 10px;
             h2 {
-                font-size: 20px;
+                font-size: 25px;
                 margin-bottom: 20px;
             }
             p {
@@ -66,9 +68,11 @@
             
             .Interacoes {
                 margin-top: 20px;
+                margin-right: 20px;
                 input {
                     height: 40px;
                     font-size: 12px;
+                    width: 200px;
                 }
                 a {
                     padding-top: 12px;
@@ -80,7 +84,7 @@
         }
 
         .ListaLinks {
-            margin-right: 100px;
+            margin-right: 3vw;
             margin-top: 70px;
             h2 {
                 font-size: 18px;
@@ -95,6 +99,7 @@
 
         #follow {
             margin-top: -13px;
+            margin-right: 0;
         }
     }
 }

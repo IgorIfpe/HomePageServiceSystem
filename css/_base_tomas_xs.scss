@@ -1,9 +1,4 @@
-$primary-color: #003d33;
-
-$color-variation-1: #439889;
-$color-variation-2: #00695c;
-$color-variation-3: #003d33;
-
+@import url(_colors.scss);
 * {
     font-family: 'Cairo', sans-serif;
     margin: 0;
@@ -57,46 +52,54 @@ $color-variation-3: #003d33;
     margin-top: 10px;
 }
 
-.Subscribe {
-    background-color: $primary-color;
+.ContainerSubscribe {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    border-radius: 1vh;
-    margin: 5vh 3vh;
-    h2, p, a {
-        color: #fff;
+    justify-content: center;
+    .Subscribe {
+        background-color: $primary-color;
+        background-image: $gradient-green;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        max-width: 300px;
+        justify-content: space-between;
+        border-radius: 1vh;
+        margin: 5vh 3vh;
+        h2, p, a {
+            color: #fff;
+        }
+        h2 {
+            font-size: 0.7rem;
+            font-weight: bold;
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+        p {
+            font-size: 0.4rem;
+            margin-bottom: 10px;
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+        a {
+            font-size: 10px;
+            height: 25px;
+            width: 80px;
+            border: solid 1px;
+            border-radius: 5px;
+            border-color: #fff;
+            text-align: center;
+            padding-top: 6px;
+            margin-right: 2vh;
+        }
     }
-    h2 {
-        font-size: 0.7rem;
-        font-weight: bold;
-        margin-top: 10px;
-        margin-left: 10px;
-    }
-    p {
-        font-size: 0.4rem;
-        margin-bottom: 10px;
-        margin-top: 10px;
-        margin-left: 10px;
-    }
-    a {
-        font-size: 10px;
-        height: 25px;
-        width: 80px;
-        border: solid 1px;
-        border-radius: 5px;
-        border-color: #fff;
-        text-align: center;
-        padding-top: 6px;
-        margin-right: 5vh;
+        
+    .SubscribeText {
+        width: 25vh;
+        margin: 10px 35px 10px 15px;
     }
 }
-    
-.SubscribeText {
-    width: 25vh;
-    margin: 10px 10px 10px 15px;
-}
+
 
 .Links {
     display: flex;
@@ -153,6 +156,7 @@ $color-variation-3: #003d33;
 footer {
     margin-top: 20px;
     background-color: $color-variation-2;
+    background-image: $gradient-green;
     font-size: 10px;
     text-align: center;
     color: #fff;
