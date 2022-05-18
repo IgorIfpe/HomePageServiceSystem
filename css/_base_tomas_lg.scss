@@ -55,7 +55,7 @@
     .Links {
         margin-left: 0;
         justify-content: flex-start;
-        
+
         .EmailAdd {
             margin-right: 10px;
             h2 {
@@ -85,7 +85,6 @@
 
         .ListaLinks {
             margin-right: 3vw;
-            margin-top: 70px;
             h2 {
                 font-size: 18px;
             }
@@ -98,6 +97,11 @@
             margin-right: 0;
         }
     }
+}
+
+.ListaPai{
+    display: flex;
+    justify-content: flex-start;
 }
 
 footer {

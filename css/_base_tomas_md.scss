@@ -1,6 +1,7 @@
 .DownloadApp {
     justify-content: space-around;
     margin: 0px 110px;
+    
     align-items: center;
     #descricao {
         max-width: 80vh;
@@ -49,8 +50,7 @@
     
         a {
             font-size: 14px;
-            height: 40px;
-            width: 140px;
+            padding: 10px;
             text-align: center;
         }
     }
@@ -95,6 +95,8 @@
         .ListaLinks {
             //margin: 0 11px;
             text-align: start;
+            margin-right: 3vw;
+
             h2 {
                 font-size: 14px;
             }
@@ -107,6 +109,11 @@
             margin-right: 0;
         }
     }
+}
+
+.ListaPai{
+    display: flex;
+    justify-content: flex-start;
 }
 
 footer {
