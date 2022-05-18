@@ -18,6 +18,7 @@
     align-items: flex-start;
     justify-content: center;
     margin: 0px 20px;
+    margin-bottom: 60px;
     
     #descricao {
         margin-top: 3vh;
@@ -92,7 +93,6 @@
             border-radius: 5px;
             border-color: #fff;
             text-align: center;
-            padding-top: 6px;
             margin-right: 2vh;
         }
     }
@@ -136,7 +136,7 @@
                 border: 1px solid #011037;
                 border-radius: 5px;
                 margin-left: 20px;
-                padding: 5px 15px;
+                padding: 0 20px;
             }
         }
     }

@@ -25,6 +25,7 @@
         -ms-flex-pack: center;
             justify-content: center;
     margin: 0px 20px;
+    margin-bottom: 60px;
   }
   .DownloadApp #descricao {
     margin-top: 3vh;
@@ -110,7 +111,6 @@
     border-radius: 5px;
     border-color: #fff;
     text-align: center;
-    padding-top: 6px;
     margin-right: 2vh;
   }
   .ContainerSubscribe .SubscribeText {
@@ -161,7 +161,7 @@
     border: 1px solid #011037;
     border-radius: 5px;
     margin-left: 20px;
-    padding: 5px 15px;
+    padding: 0 20px;
   }
   .Links .ListaLinks {
     list-style: none;
@@ -579,7 +579,7 @@
   }
   .DownloadApp #descricao p {
     font-size: 0.8rem;
-    width: 60vh;
+    width: 50vh;
   }
   .DownloadApp #telahome {
     height: 300px;
@@ -588,7 +588,7 @@
     height: 60px;
     width: 150px;
     margin-left: 65px;
-    margin-top: 30px;
+    margin-top: 20px;
   }
   .ContainerSubscribe .Subscribe {
     max-width: 75vw;
@@ -612,6 +612,7 @@
     height: 40px;
     width: 140px;
     text-align: center;
+    padding-top: 5px;
   }
   .EndSection {
     display: -webkit-box;
@@ -652,10 +653,13 @@
     height: 30px;
     width: 70px;
     margin-left: 10px;
-    font-size: 8px;
+    font-size: 10px;
+    padding-top: 5px;
+    padding-left: 17px;
   }
   .EndSection .Links .ListaLinks {
     text-align: start;
+    margin-right: 30px;
   }
   .EndSection .Links .ListaLinks h2 {
     font-size: 14px;
@@ -665,6 +669,17 @@
   }
   .EndSection .Links #follow {
     margin-right: 0;
+  }
+  .ListaPai {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
   }
   footer {
     font-size: 12px;
@@ -817,6 +832,7 @@
     line-height: 15px;
   }
   .ContainerSubscribe .Subscribe a {
+    padding-top: 10px;
     height: 50px;
     width: 150px;
   }
@@ -858,6 +874,8 @@
     text-align: center;
     height: 40px;
     font-size: 12px;
+    padding-left: 15px;
+    padding-top: 7px;
   }
   .EndSection .Links .ListaLinks {
     margin-right: 3vw;
