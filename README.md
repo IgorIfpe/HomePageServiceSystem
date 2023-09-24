@@ -13,6 +13,8 @@ Open the index.html file in your browser
 ## Autores
 Igor Santos, Ana Thamyres, Tomas Braz e Adryel Torres
 
+## License
+
 **MIT License**
 
 Copyright (c) 2023 [Igor Santos]
