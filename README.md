@@ -4,7 +4,7 @@ Hotsite for small business management platform Service System
 
 ## Motivation
 
-Demonstrator of skills learned in the Web discipline at (Programa Moura Tech - Baterias Moura)[https://mouratech.moura.com.br]
+Demonstrator of skills learned in the Web discipline at [Programa Moura Tech - Grupo Moura](https://mouratech.moura.com.br)
 
 ## To execute
 
